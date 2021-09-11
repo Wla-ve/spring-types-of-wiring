@@ -1,13 +1,15 @@
 package koschei.models;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Needle7 {
 
-    private final Death8 death8;
+    private Death8 death8;
 
-    public Needle7(Death8 death8) {
+    @Autowired
+    public void setDeath8(Death8 death8) {
         this.death8 = death8;
     }
 
