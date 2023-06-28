@@ -9,8 +9,5 @@
         <module name="spring-types-of-wiring" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-types-of-wiring" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,15 +6,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class Egg6 {
 
-    private Needle7 needle7;
-
     @Autowired
-    public void seNeedle7(Needle7 needle7) {
-        this.needle7 = needle7;
-    }
+    private Needle7 needle;
 
     @Override
     public String toString() {
-        return ", в яйце иголка " + needle7.toString();
+        return ", в яйце иголка " + needle.toString();
     }
 }
